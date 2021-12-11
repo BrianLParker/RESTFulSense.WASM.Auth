@@ -2,8 +2,9 @@
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 @using RESTFulSense.WASM.Auth.Shared
+@using RESTFulSense.WebAssembly.Services
 @attribute [Authorize]
-@inject HttpClient Http
+@inject IRESTFulApiClientFactory ClientFactory
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -45,9 +46,11 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        var http = this.ClientFactory.CreateClient("RESTFulSense.WASM.Auth.ServerAPI");
+
         try
         {
-            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+            forecasts = await http.GetContentAsync<WeatherForecast[]>("WeatherForecast");
         }
         catch (AccessTokenNotAvailableException exception)
         {

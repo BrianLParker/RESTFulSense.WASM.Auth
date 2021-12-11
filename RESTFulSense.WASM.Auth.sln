@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFulSense.WASM.Auth.Server", "RESTFulSense.WASM.Auth\Server\RESTFulSense.WASM.Auth.Server.csproj", "{6D722696-3B75-4678-AE6D-2D884456DBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFulSense.WASM.Auth.Client", "RESTFulSense.WASM.Auth\Client\RESTFulSense.WASM.Auth.Client.csproj", "{4F5C47CB-87F7-4ED8-ACDB-731BCDC63EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFulSense.WASM.Auth.Shared", "RESTFulSense.WASM.Auth\Shared\RESTFulSense.WASM.Auth.Shared.csproj", "{ADA311E3-D6A3-4B8A-8F5F-3A45BF7130C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D722696-3B75-4678-AE6D-2D884456DBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D722696-3B75-4678-AE6D-2D884456DBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D722696-3B75-4678-AE6D-2D884456DBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D722696-3B75-4678-AE6D-2D884456DBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5C47CB-87F7-4ED8-ACDB-731BCDC63EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5C47CB-87F7-4ED8-ACDB-731BCDC63EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5C47CB-87F7-4ED8-ACDB-731BCDC63EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5C47CB-87F7-4ED8-ACDB-731BCDC63EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA311E3-D6A3-4B8A-8F5F-3A45BF7130C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA311E3-D6A3-4B8A-8F5F-3A45BF7130C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA311E3-D6A3-4B8A-8F5F-3A45BF7130C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA311E3-D6A3-4B8A-8F5F-3A45BF7130C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D1192DE-1F1B-4B5A-BC75-4EC716DAFDE4}
+	EndGlobalSection
+EndGlobal
